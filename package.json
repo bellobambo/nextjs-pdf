@@ -1,16 +1,37 @@
 {
-  "name": "npm",
+  "name": "nextjs-pdf",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "babel src -d dist",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.6.0",
     "next": "13.4.19",
+    "nextjs-pdf": "^0.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "./build/page.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bellobambo/nextjs-pdf.git"
+  },
+  "keywords": [
+    "pdf",
+    "nextjs"
+  ],
+  "author": "Bambobello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bellobambo/nextjs-pdf/issues"
+  },
+  "homepage": "https://github.com/bellobambo/nextjs-pdf#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.14"
   }
 }
