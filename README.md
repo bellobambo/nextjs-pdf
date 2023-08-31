@@ -1,7 +1,7 @@
 # nextjs-pdf
 Create Nextjs PDF with ease
 
-SAMPLE
+**SAMPLE**
 
 "use client"
 
@@ -47,12 +47,13 @@ export default function Home() {
 }
 
 
-
+**YOU CAN STYLE YOUR PDF AS SEEN BELOW**
 
 obj.autoTable({
   startX: 20,
   startY: 30,
   head: [['Name', 'City', 'Phone No.']],
+  
   body: [
     ['Donna', 'New York', '8456210'],
     ['Rachel', 'Los Angeles', '7845521'],
